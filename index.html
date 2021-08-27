@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador de Séries</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <form id="busca">
+        <div class="row">
+            <div class="col-4 offset-3">
+                
+                    <div class="mb-3">
+                        <input type="text" id="input_serie" name="serie" class="form-control" required placeholder="Digite o nome da série">
+                    </div>
+                    
+                
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary col-4">Procurar</button>
+            </div>
+        </div>
+        </form>
+
+        <div class="row" id="ul_series">
+
+        </div>
+
+        <div class="row">
+            <table class="table table-striped" id="episodios">
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="magica.js"></script>
+</body>
+</html>
